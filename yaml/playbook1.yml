@@ -1,0 +1,5 @@
+
+ - hosts: 127.0.0.1  # hosts中指定
+   tasks:
+    - name: ls_test
+      shell: 'ls /etc/'
