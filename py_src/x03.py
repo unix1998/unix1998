@@ -1,10 +1,9 @@
 #!  /usr/bin/python
-def f(x,l=[]):
-    for i in range(x):
-        l.append(i*i)
-    print(l) 
+from jinja2 import Template
+t = Template("Hello {{ something }}!")
+t.render(something="World")
+u'Hello World!'
 
-f(3)
-x15 = input ("1 2 3 4 5")
-print x15
-
+t = Template("My favorite numbers: {% for n in range(1,10) %}{{n}} " "{% endfor %}")
+t.render()
+u'My favorite numbers: 1 2 3 4 5 6 7 8 9 '
