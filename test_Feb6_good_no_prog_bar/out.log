@@ -1,0 +1,12 @@
+2018-02-01 10:45:07,169:INFO:STDOUT:Test to standard out
+2018-02-01 10:45:07,169:ERROR:STDERR:Traceback (most recent call last):
+2018-02-01 10:45:07,169:ERROR:STDERR:  File "D:\opt\python_src\test\x_logging.py", line 40, in <module>
+2018-02-01 10:45:07,169:ERROR:STDERR:raise Exception('Test to standard error')
+2018-02-01 10:45:07,169:ERROR:STDERR:Exception
+2018-02-01 10:45:07,169:ERROR:STDERR::
+2018-02-01 10:45:07,169:ERROR:STDERR:Test to standard error
+2018-02-01 10:45:07,169:ERROR:STDERR:Exception ignored in:
+2018-02-01 10:45:07,169:ERROR:STDERR:<__main__.StreamToLogger object at 0x01D29850>
+2018-02-01 10:45:07,169:ERROR:STDERR:AttributeError
+2018-02-01 10:45:07,169:ERROR:STDERR::
+2018-02-01 10:45:07,169:ERROR:STDERR:'StreamToLogger' object has no attribute 'flush'
