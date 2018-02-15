@@ -1,0 +1,6 @@
+test12344
+test12344
+Exception ignored in: <__main__.Logger object at 0x00B47350>
+AttributeError: 'Logger' object has no attribute 'flush'
+Exception ignored in: <__main__.Logger object at 0x00B47350>
+AttributeError: 'Logger' object has no attribute 'flush'
