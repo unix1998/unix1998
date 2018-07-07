@@ -1,0 +1,7 @@
+ext_pillar:
+
+  - git:
+
+    - {'__env__ ssh://git@code.test-1998.com/task-2018/salt.git': [{'env': 'base'}, {'name': '99_base'}, {'root': 'base/pillar'}]}
+
+    - {'__env__ ssh://git@code.test-1998.com/task-2018/salt.git': [{'env': 'dev'}, {'name': '10_dev'}, {'root': 'dev/pillar'}]}
