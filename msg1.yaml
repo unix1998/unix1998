@@ -1,0 +1,14 @@
+- name: Print message
+  hosts: localhost
+  tasks:
+    - name: Print message
+      ansible.builtin.debug:
+        msg: "The item is {{ item }} and loop index is {{ i }}"
+      loop:
+        - hello
+        - world
+        - Toronto
+        - Canada
+        - Lockmere
+      loop_control:
+        index_var: i
